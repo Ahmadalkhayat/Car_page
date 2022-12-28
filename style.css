@@ -1,0 +1,158 @@
+:root{
+    --nav-color:rgb(63 83 185)
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar .container .logo , .navbar .container .links ul li a{
+
+color: var(--nav-color);
+}
+ .navbar .container .links ul li .active{
+     color: #0b9b9b;
+}
+.navbar .container .logo img{
+    height: 70px;
+width: 100%;
+border-radius: 5px;
+}
+.first{
+    background-image: url("https://wallpapercave.com/wp/wp5152001.jpg");
+    background-size: cover;
+  
+}
+
+.first .main h2{
+    max-width: 400px;
+    color: rgb(7, 7, 50);
+}
+.first .main button{
+    width: 150px;
+}
+.first .main p{
+font-family: 'Raleway', sans-serif;
+}
+.first .main{
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.first .container .row div{
+    
+padding-top: 30px;
+padding-bottom: 20px;
+padding-left: 10px;
+border-radius: 5px;
+}
+.first .container .row div .box{
+    text-align: left;
+}
+.first .container .row div h5{
+     color: var(--nav-color);
+      padding-bottom: 8px;
+    }
+
+    .first .container .row div i{
+        
+        color: var(--nav-color);
+        padding-bottom: 20px;
+        font-size: 50px;
+    }
+   
+    .info .container h2{
+        color: var(--nav-color);
+    }
+    .info .container div p i{
+    color: green;
+    }
+    .numbers .container .row .number{
+        color: rgb(7, 7, 50);
+    }
+    .numbers {
+    background-color: #eee;
+ }
+    .numbers .container .row .span{
+        color: var(--nav-color);
+    }
+    /* .numbers .container .row  .ss::cue{
+        animation-name: pull;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        
+    }
+
+    @keyframes pull{
+
+        from{
+            transform: translateX(1000px);
+        }
+        to{
+            transform: translateX(0px);
+        }
+    } */
+    .footer .container-fluid h2{
+        color: rgb(3, 3, 101);
+    }
+    
+    .row  .box:hover{
+        animation-name: change-card;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        animation-fill-mode: both;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    
+
+  @keyframes change-card{
+
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(180deg);
+        background-image: url("https://wallpapercave.com/wp/wp5152007.jpg");
+        background-size: cover;
+}
+  }
+
+  
+
+    .footer .container-fluid .image img {
+       width: 100%;
+       height: 500px;
+    }
+    .site , .email , .phone {
+        color: rgb(3, 3, 101);
+    }
+    .adress , .em , .num{
+        color: rgb(98, 98, 247) ;
+  }
+  .icons{
+    background-color: #86b1bbb9;
+     font-size: 40px; 
+     width: 40px;
+     text-align: center;
+     height: max-content;
+  }
+  form input{
+    height: 40px;
+  }    
+form input ,textarea{
+    width: 49%;
+    text-indent: 8px;
+    border: 0;
+    background-color: #86b1bbb9;
+    border-radius: 10px;
+    color: rgb(3, 3, 101);
+    
+}
+form input ,textarea:focus{
+    border: 0;
+    outline: none;
+}
+
+
+  
